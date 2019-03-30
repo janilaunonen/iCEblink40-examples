@@ -1,0 +1,6 @@
+###IOSet List 5
+set_io CLK_3p33MHZ 13
+set_io --warn-no-port LED2 59
+set_io --warn-no-port LED3 56
+set_io --warn-no-port LED4 53
+set_io --warn-no-port LED5 51
