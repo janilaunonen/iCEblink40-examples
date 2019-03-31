@@ -1,0 +1,16 @@
+###IOSet List 12
+set_io --warn-no-port LED2 59
+set_io --warn-no-port LED3 56
+set_io --warn-no-port LED4 53
+set_io --warn-no-port LED5 51
+
+# flexible keypad is supposed to be connected to J2 header outer row aligned
+# towards the cap-buttons
+set_io --warn-no-port KEYPAD_COL_2 66
+set_io --warn-no-port KEYPAD_COL_1 69
+set_io --warn-no-port KEYPAD_COL_0 72
+set_io --warn-no-port KEYPAD_ROW_3 74
+set_io --warn-no-port KEYPAD_ROW_1 81
+set_io --warn-no-port KEYPAD_ROW_2 79
+set_io --warn-no-port KEYPAD_ROW_0 83
+
