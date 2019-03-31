@@ -9,3 +9,5 @@ Arachne-pnr https://github.com/YosysHQ/arachne-pnr
 Icestorm: http://www.clifford.at/icestorm/
 
 led-conter: simple clock divider with highest bits output to onboard leds. Basic example for pin assignment.
+
+led-rotator: rotating led driven by slowed enable signal derived from main clock.
