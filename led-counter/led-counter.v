@@ -1,4 +1,4 @@
-module blinker(
+module led_counter(
 	input CLK_3p33MHZ,
 	output LED2,
 	output LED3,

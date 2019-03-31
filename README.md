@@ -7,3 +7,6 @@ iCEblink40-HX1K: http://www.latticesemi.com/iCEblink40-HX1K
 Yosys: http://www.clifford.at/yosys/
 Arachne-pnr https://github.com/YosysHQ/arachne-pnr
 Icestorm: http://www.clifford.at/icestorm/
+
+led-conter: simple clock divider with highest bits output to onboard leds.
+

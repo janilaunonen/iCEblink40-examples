@@ -1,4 +1,4 @@
-PROJ = blinker
+PROJ = led-counter
 PIN_DEF =  iceblink40_vq100.pcf
 DEVICE = hx1k
 ICEBURNPY = python3
@@ -7,7 +7,7 @@ ICEBURNPATH = /home/jabba/Programming/iceBurn
 all: $(PROJ).rpt $(PROJ).bin
 
 %.blif: %.v
-	yosys -p 'synth_ice40 -top blinker -blif $@' $<
+	yosys -p 'synth_ice40 -top led_counter -blif $@' $<
 
 %.asc: $(PIN_DEF) %.blif
 	arachne-pnr -d $(subst hx,,$(subst lp,,$(DEVICE))) -o $@ -p $^ -P vq100
@@ -26,6 +26,6 @@ sudo-prog: $(PROJ).bin
 	$(ICEBURNPY) $(ICEBURNPATH)/iCEburn.py  -e -v -w  $<
 
 clean:
-	rm -f $(PROJ).blif $(PROJ).asc $(PROJ).bin
+	rm -f $(PROJ).blif $(PROJ).asc $(PROJ).bin $(PROJ).rpt
 
 .PHONY: all prog clean
