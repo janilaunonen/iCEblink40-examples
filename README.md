@@ -3,19 +3,19 @@ Simple example programs for the Lattice iCEblink40-HX1K Evaluation Kit in Verilo
 
 Examples are simple and probably fits any FPGA.
 
-Tools:
-iCEblink40-HX1K: http://www.latticesemi.com/iCEblink40-HX1K
-Yosys: http://www.clifford.at/yosys/
-Arachne-pnr https://github.com/YosysHQ/arachne-pnr
-Icestorm: http://www.clifford.at/icestorm/
+## Tools:
+* iCEblink40-HX1K: http://www.latticesemi.com/iCEblink40-HX1K
+* Yosys: http://www.clifford.at/yosys/
+* Arachne-pnr https://github.com/YosysHQ/arachne-pnr
+* Icestorm: http://www.clifford.at/icestorm/
 
-Documentation:
-https://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf
-https://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/iCEblink40HX1KEvaluationKitUsersGuide.PDF
+## Documentation:
+* https://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf
+* https://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/iCEblink40HX1KEvaluationKitUsersGuide.PDF
 
-Examples:
-led-conter: simple clock divider with highest bits output to onboard leds. Basic example for pin assignment.
+## Examples:
+1 led-conter: simple clock divider with highest bits output to onboard leds. Basic example for pin assignment.
 
-led-rotator: rotating led driven by slowed enable signal derived from main clock.
+2 led-rotator: rotating led driven by slowed enable signal derived from main clock.
 
-flexpad-and-leds: detects buttons pressed on a flexible keypad and lights up leds according to the button's row.
+3 flexpad-and-leds: detects buttons pressed on a flexible keypad and lights up leds according to the button's row. The used keyboard is like this: https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/419_Web.pdf
