@@ -19,3 +19,5 @@ Examples are simple and probably fits any FPGA.
 2 led-rotator: rotating led driven by slowed enable signal derived from main clock.
 
 3 flexpad-and-leds: detects buttons pressed on a flexible keypad and lights up leds according to the button's row. The used keyboard is like this: https://media.digikey.com/pdf/Data%20Sheets/Adafruit%20PDFs/419_Web.pdf
+
+4 flexpad-encoded-leds: detects individual buttons pressed on flexible keypad and encodes the button pressed (wrongly currently) and shows the result with leds. Uses techniques from examples 2 and 3; rotating selector selects the column to be read and the I/Os are setup like in flexpax-and-leds.
