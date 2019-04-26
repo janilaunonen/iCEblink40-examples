@@ -14,7 +14,7 @@ Examples are simple and probably fits any FPGA.
 * https://www.latticesemi.com/~/media/LatticeSemi/Documents/UserManuals/EI/iCEblink40HX1KEvaluationKitUsersGuide.PDF
 
 ## Examples:
-1 led-conter: simple clock divider with highest bits output to onboard leds. Basic example for pin assignment.
+1 led-counter: simple clock divider with highest bits output to onboard leds. Basic example for pin assignment.
 
 2 led-rotator: rotating led driven by slowed enable signal derived from main clock.
 
