@@ -1,5 +1,5 @@
 # iCEblink40-examples
-Simple example programs for the Lattice iCEblink40-HX1K Evaluation Kit in Verilog for fun and learning using open source toolchain. The examples might work easily with Lattice ICECube2 ( http://www.latticesemi.com/Products/DesignSoftwareAndIP/FPGAandLDS/iCEcube2 ), however I had problems setting up the ICECube2 on my Linux so I opted to use open source toolchain, namely yosys, arachne-pnr, icestorm, iceburn.
+Simple example programs for the Lattice iCEblink40-HX1K Evaluation Kit in Verilog for fun and to learn a open source toolchain. The examples might work easily with Lattice ICECube2 ( http://www.latticesemi.com/Products/DesignSoftwareAndIP/FPGAandLDS/iCEcube2 ), however I had problems setting up the ICECube2 on my Linux so I opted to use open source toolchain, namely yosys, --arachne-pnr-- nextpnr, icestorm, iceburn.
 
 Examples are simple and probably fits any FPGA.
 
