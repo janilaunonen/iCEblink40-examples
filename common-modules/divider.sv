@@ -1,8 +1,9 @@
 
 
 module divider #(parameter COUNT = 3300000)
-(input logic clk, input logic input_clk, output logic output_clk);
+(input logic clk, input logic input_clk, output logic output_pulse);
 logic [$clog2(COUNT):0] counter = 0;
+logic output_clk = 0;
 initial output_clk = 0;
 
 always_ff @(posedge clk)
@@ -23,4 +24,5 @@ begin
 	else
 		output_clk <= output_clk;
 end
+assign output_pulse = output_clk & clk;
 endmodule : divider

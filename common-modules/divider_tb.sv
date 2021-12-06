@@ -1,7 +1,7 @@
 module divider_tb();
-logic clk, output_clk;
+logic clk, output_pulse;
 
-divider #(.COUNT(2)) mut (.clk(clk), .input_clk(clk), .output_clk(output_clk));
+divider #(.COUNT(2)) mut (.clk(clk), .input_clk(clk), .output_pulse(output_pulse));
 
 // oscillate clock every 5 simulation units
 always #5 clk <= !clk;
