@@ -16,8 +16,10 @@ always_ff @(posedge clk)
 	if (enable && loaded) begin
 		if (counter == 0 && timeout == 1'b0)
 			timeout <= 1'b1;	// raise timout for one clk
-		else if (counter == 0 && timeout == 1'b0)
+		else if (counter == 0 && timeout == 1'b1) begin
 			timeout <= 1'b0;	// lower timeout
+			loaded <= 1'b0;
+		end
 		else
 			counter--;
 	end
